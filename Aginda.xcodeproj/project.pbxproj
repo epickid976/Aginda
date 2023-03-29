@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AD4D6729C7ACCE00465B5D /* Shift in Frameworks */ = {isa = PBXBuildFile; productRef = 82AD4D6629C7ACCE00465B5D /* Shift */; };
+		82AD4D6C29CE230500465B5D /* RemindersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD4D6B29CE230500465B5D /* RemindersManager.swift */; };
+		82AD4D7129D1E85100465B5D /* HabitsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD4D7029D1E85100465B5D /* HabitsStruct.swift */; };
+		82AD4D7329D1ECAC00465B5D /* HabitsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD4D7229D1ECAC00465B5D /* HabitsManager.swift */; };
+		82E70D5329BBC71400961980 /* AgindaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E70D5229BBC71400961980 /* AgindaApp.swift */; };
+		82E70D5529BBC71400961980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E70D5429BBC71400961980 /* ContentView.swift */; };
+		82E70D5729BBC71500961980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E70D5629BBC71500961980 /* Assets.xcassets */; };
+		82E70D5A29BBC71500961980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E70D5929BBC71500961980 /* Preview Assets.xcassets */; };
+		82E70D6229BBC8E200961980 /* GoogleAPIClientForREST_Calendar in Frameworks */ = {isa = PBXBuildFile; productRef = 82E70D6129BBC8E200961980 /* GoogleAPIClientForREST_Calendar */; };
+		82E70D6429BBC8E200961980 /* GoogleAPIClientForREST_Oauth2 in Frameworks */ = {isa = PBXBuildFile; productRef = 82E70D6329BBC8E200961980 /* GoogleAPIClientForREST_Oauth2 */; };
+		82EDAA2C29D38EDA00073F32 /* ElegantCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EDAA2B29D38EDA00073F32 /* ElegantCalendar.swift */; };
+		82EDAA2E29D393D200073F32 /* ElegantCalendar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EDAA2D29D393D200073F32 /* ElegantCalendar.xcassets */; };
+		82EDAACF29D3A0BB00073F32 /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 82EDAACE29D3A0BB00073F32 /* ElegantCalendar */; };
+		82EDAAD129D3D30800073F32 /* EventsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EDAAD029D3D30800073F32 /* EventsList.swift */; };
+		82EDAAD329D476DE00073F32 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EDAAD229D476DE00073F32 /* EventCell.swift */; };
+		82EDAAD529D476E400073F32 /* VisitPreviewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EDAAD429D476E400073F32 /* VisitPreviewConstants.swift */; };
+		82EDAADA29D477EF00073F32 /* EventsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EDAAD929D477EF00073F32 /* EventsClass.swift */; };
+		82EDAADC29D4A44900073F32 /* MyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EDAADB29D4A44900073F32 /* MyEvent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82AD4D6829C7B15600465B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		82AD4D6B29CE230500465B5D /* RemindersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersManager.swift; sourceTree = "<group>"; };
+		82AD4D7029D1E85100465B5D /* HabitsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStruct.swift; sourceTree = "<group>"; };
+		82AD4D7229D1ECAC00465B5D /* HabitsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsManager.swift; sourceTree = "<group>"; };
+		82E70D4F29BBC71400961980 /* Aginda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aginda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E70D5229BBC71400961980 /* AgindaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgindaApp.swift; sourceTree = "<group>"; };
+		82E70D5429BBC71400961980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82E70D5629BBC71500961980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E70D5929BBC71500961980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82EDAA2B29D38EDA00073F32 /* ElegantCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantCalendar.swift; sourceTree = "<group>"; };
+		82EDAA2D29D393D200073F32 /* ElegantCalendar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ElegantCalendar.xcassets; path = ../../../SourcePackages/checkouts/ElegantCalendar/ElegantCalendar.xcassets; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EDAAD029D3D30800073F32 /* EventsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsList.swift; sourceTree = "<group>"; };
+		82EDAAD229D476DE00073F32 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		82EDAAD429D476E400073F32 /* VisitPreviewConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitPreviewConstants.swift; sourceTree = "<group>"; };
+		82EDAAD929D477EF00073F32 /* EventsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsClass.swift; sourceTree = "<group>"; };
+		82EDAADB29D4A44900073F32 /* MyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEvent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E70D4C29BBC71400961980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AD4D6729C7ACCE00465B5D /* Shift in Frameworks */,
+				82EDAACF29D3A0BB00073F32 /* ElegantCalendar in Frameworks */,
+				82E70D6429BBC8E200961980 /* GoogleAPIClientForREST_Oauth2 in Frameworks */,
+				82E70D6229BBC8E200961980 /* GoogleAPIClientForREST_Calendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82E70D4629BBC71400961980 = {
+			isa = PBXGroup;
+			children = (
+				82EDAA2D29D393D200073F32 /* ElegantCalendar.xcassets */,
+				82E70D5129BBC71400961980 /* Aginda */,
+				82E70D5029BBC71400961980 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82E70D5029BBC71400961980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E70D4F29BBC71400961980 /* Aginda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E70D5129BBC71400961980 /* Aginda */ = {
+			isa = PBXGroup;
+			children = (
+				82AD4D6829C7B15600465B5D /* Info.plist */,
+				82E70D5229BBC71400961980 /* AgindaApp.swift */,
+				82E70D5429BBC71400961980 /* ContentView.swift */,
+				82EDAAD629D4775A00073F32 /* EventViews */,
+				82EDAAD729D477B500073F32 /* Helpers */,
+				82EDAAD829D477D500073F32 /* Structs */,
+				82EDAA2B29D38EDA00073F32 /* ElegantCalendar.swift */,
+				82E70D5629BBC71500961980 /* Assets.xcassets */,
+				82E70D5829BBC71500961980 /* Preview Content */,
+			);
+			path = Aginda;
+			sourceTree = "<group>";
+		};
+		82E70D5829BBC71500961980 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82E70D5929BBC71500961980 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82EDAAD629D4775A00073F32 /* EventViews */ = {
+			isa = PBXGroup;
+			children = (
+				82EDAAD929D477EF00073F32 /* EventsClass.swift */,
+				82EDAAD229D476DE00073F32 /* EventCell.swift */,
+				82EDAAD429D476E400073F32 /* VisitPreviewConstants.swift */,
+				82EDAAD029D3D30800073F32 /* EventsList.swift */,
+			);
+			path = EventViews;
+			sourceTree = "<group>";
+		};
+		82EDAAD729D477B500073F32 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				82EDAADB29D4A44900073F32 /* MyEvent.swift */,
+				82AD4D6B29CE230500465B5D /* RemindersManager.swift */,
+				82AD4D7229D1ECAC00465B5D /* HabitsManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		82EDAAD829D477D500073F32 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				82AD4D7029D1E85100465B5D /* HabitsStruct.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E70D4E29BBC71400961980 /* Aginda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E70D5D29BBC71500961980 /* Build configuration list for PBXNativeTarget "Aginda" */;
+			buildPhases = (
+				82E70D4B29BBC71400961980 /* Sources */,
+				82E70D4C29BBC71400961980 /* Frameworks */,
+				82E70D4D29BBC71400961980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aginda;
+			packageProductDependencies = (
+				82E70D6129BBC8E200961980 /* GoogleAPIClientForREST_Calendar */,
+				82E70D6329BBC8E200961980 /* GoogleAPIClientForREST_Oauth2 */,
+				82AD4D6629C7ACCE00465B5D /* Shift */,
+				82EDAACE29D3A0BB00073F32 /* ElegantCalendar */,
+			);
+			productName = Aginda;
+			productReference = 82E70D4F29BBC71400961980 /* Aginda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E70D4729BBC71400961980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					82E70D4E29BBC71400961980 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 82E70D4A29BBC71400961980 /* Build configuration list for PBXProject "Aginda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82E70D4629BBC71400961980;
+			packageReferences = (
+				82E70D6029BBC8E200961980 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+				82AD4D6529C7ACCE00465B5D /* XCRemoteSwiftPackageReference "Shift" */,
+				82EDAACD29D3A0BB00073F32 /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
+			);
+			productRefGroup = 82E70D5029BBC71400961980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E70D4E29BBC71400961980 /* Aginda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E70D4D29BBC71400961980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E70D5A29BBC71500961980 /* Preview Assets.xcassets in Resources */,
+				82E70D5729BBC71500961980 /* Assets.xcassets in Resources */,
+				82EDAA2E29D393D200073F32 /* ElegantCalendar.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E70D4B29BBC71400961980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E70D5529BBC71400961980 /* ContentView.swift in Sources */,
+				82EDAAD329D476DE00073F32 /* EventCell.swift in Sources */,
+				82AD4D7129D1E85100465B5D /* HabitsStruct.swift in Sources */,
+				82EDAA2C29D38EDA00073F32 /* ElegantCalendar.swift in Sources */,
+				82AD4D6C29CE230500465B5D /* RemindersManager.swift in Sources */,
+				82E70D5329BBC71400961980 /* AgindaApp.swift in Sources */,
+				82AD4D7329D1ECAC00465B5D /* HabitsManager.swift in Sources */,
+				82EDAAD529D476E400073F32 /* VisitPreviewConstants.swift in Sources */,
+				82EDAADC29D4A44900073F32 /* MyEvent.swift in Sources */,
+				82EDAAD129D3D30800073F32 /* EventsList.swift in Sources */,
+				82EDAADA29D477EF00073F32 /* EventsClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82E70D5B29BBC71500961980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82E70D5C29BBC71500961980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82E70D5E29BBC71500961980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aginda/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FLCXFF4D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aginda/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar is used in order to read, create and delete calendar events and calendars, as well as other calendar functions critical to the app.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Access birthday info";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "To access reminders";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jose.Blanco.Aginda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82E70D5F29BBC71500961980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aginda/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FLCXFF4D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aginda/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar is used in order to read, create and delete calendar events and calendars, as well as other calendar functions critical to the app.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Access birthday info";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "To access reminders";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jose.Blanco.Aginda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E70D4A29BBC71400961980 /* Build configuration list for PBXProject "Aginda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E70D5B29BBC71500961980 /* Debug */,
+				82E70D5C29BBC71500961980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E70D5D29BBC71500961980 /* Build configuration list for PBXNativeTarget "Aginda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E70D5E29BBC71500961980 /* Debug */,
+				82E70D5F29BBC71500961980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82AD4D6529C7ACCE00465B5D /* XCRemoteSwiftPackageReference "Shift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vinhnx/Shift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		82E70D6029BBC8E200961980 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		82EDAACD29D3A0BB00073F32 /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82AD4D6629C7ACCE00465B5D /* Shift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82AD4D6529C7ACCE00465B5D /* XCRemoteSwiftPackageReference "Shift" */;
+			productName = Shift;
+		};
+		82E70D6129BBC8E200961980 /* GoogleAPIClientForREST_Calendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82E70D6029BBC8E200961980 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Calendar;
+		};
+		82E70D6329BBC8E200961980 /* GoogleAPIClientForREST_Oauth2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82E70D6029BBC8E200961980 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Oauth2;
+		};
+		82EDAACE29D3A0BB00073F32 /* ElegantCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82EDAACD29D3A0BB00073F32 /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
+			productName = ElegantCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 82E70D4729BBC71400961980 /* Project object */;
+}

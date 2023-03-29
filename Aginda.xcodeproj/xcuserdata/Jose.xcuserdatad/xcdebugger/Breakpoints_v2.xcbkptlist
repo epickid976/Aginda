@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AD410AB5-5D4D-4363-AD46-F3CBB29D9118"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "requestRemindersAccess(onGranted:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - b4c5f268cba00e5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: () -&gt; (), onError: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - 8f036e2b5e726d18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Aginda.RemindersManager.requestRemindersAccess(onGranted: () -&gt; (), onError: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - 1903ec6707add392"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - 3940b23958808f4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - e95ea92ecc1dfc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - 364e0651c367d52b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - e95ea92ecc1de92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - e95ea92ecc1dfaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - 364e0651c367d50a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - e95ea92ecc1dfaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - e95ea92ecc1dfaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - e95ea92ecc1dfaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "382B20D7-BB31-4C4B-928D-159C3C79E4E4 - e95ea92ecc1dfaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F612562-0623-46A1-9F91-2D23389B1C56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "requestRemindersAccess(onGranted:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F612562-0623-46A1-9F91-2D23389B1C56 - e95ea92ecc1dfc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "0F612562-0623-46A1-9F91-2D23389B1C56 - e95ea92ecc1dfc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "0F612562-0623-46A1-9F91-2D23389B1C56 - e95ea92ecc1dfaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "0F612562-0623-46A1-9F91-2D23389B1C56 - 364e0651c367d50a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Aginda.RemindersManager.requestRemindersAccess(onGranted: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9380D51A-986C-491D-9359-0CD3DDB231DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "requestRemindersAccess(onGranted:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C73512D0-6575-4598-A99D-1E20DF246D8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "requestRemindersAccess(onGranted:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9A97423-ACD7-432C-9197-5FEDC1CBD2D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchReminders(date:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9A97423-ACD7-432C-9197-5FEDC1CBD2D1 - c09ccfc2cc84a66c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "D9A97423-ACD7-432C-9197-5FEDC1CBD2D1 - 54b86984911436e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D9A97423-ACD7-432C-9197-5FEDC1CBD2D1 - c09ccfc2cc84a66c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "D9A97423-ACD7-432C-9197-5FEDC1CBD2D1 - 54b8698491143703"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06244B7D-9367-4637-A33D-90198AEAEEE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchReminders(date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60CC0D0F-F0C5-4073-88C7-9F1A76F3EB46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchReminders(date:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "60CC0D0F-F0C5-4073-88C7-9F1A76F3EB46 - 54b86984911436c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "60CC0D0F-F0C5-4073-88C7-9F1A76F3EB46 - fcd2c7b68baec02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.EKReminder&gt;&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "60CC0D0F-F0C5-4073-88C7-9F1A76F3EB46 - fcd2c7b68baec02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.EKReminder&gt;&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D919657-A536-4B99-8213-8B652E98D94B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/RemindersManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchReminders(date:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D919657-A536-4B99-8213-8B652E98D94B - fcd2c7b68baec02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.EKReminder&gt;&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "4D919657-A536-4B99-8213-8B652E98D94B - fcd2c7b68baec02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.EKReminder&gt;&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "4D919657-A536-4B99-8213-8B652E98D94B - fcd2c7b68baec02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.EKReminder&gt;&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "4D919657-A536-4B99-8213-8B652E98D94B - fcd2c7b68baec02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.EKReminder&gt;&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Aginda.RemindersManager.fetchReminders() async throws -&gt; ()"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/RemindersManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEF352E5-263D-451C-967A-C03255FB41AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aginda/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - 27ed5186f2d94d1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.CalendarView.init() -&gt; Aginda.CalendarView"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - cef77e75c8f7f363"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Aginda.CalendarView.selectedDate : Foundation.Date"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - df55e35ad1476109"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.CalendarView.selectedDate.getter : Foundation.Date"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - 6f4fd5a5a9621515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.CalendarView.selectedDate.setter : Foundation.Date"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - 1ca259c031cb5a0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.CalendarView.selectedDate.modify : Foundation.Date"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - 752c110f1726015"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.CalendarView.selectedDate.modify : Foundation.Date with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - d17ba4f5501369cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.CalendarView.$selectedDate.getter : SwiftUI.Binding&lt;Foundation.Date&gt;"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "ABC0478D-7E35-4221-97D8-C0071C1C718D - 27ed5186f2d94db2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aginda.CalendarView.init() -&gt; Aginda.CalendarView"
+                  moduleName = "Aginda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jose/Aginda/Aginda/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "1260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
