@@ -19,6 +19,7 @@ struct EventsList: View {
     @State private var selectedEvent: EKEvent?
     @StateObject var remindersWrapper = RemindersManager.shared
     @State private var selectedReminder: EKReminder?
+    @StateObject var eventsManager = EventsManager()
     
     
     
@@ -61,11 +62,14 @@ struct EventsList: View {
 //            }
         }
         .onAppear() {
-            Task {
+            /*Task {
                 try! await eventKitWrapper.fetchEvents(startDate: Calendar.current.startOfDay(for: selectedDate), endDate: Date().endOfDay(for: selectedDate))
                     print(Shift.shared.events)
                 try! await remindersWrapper.fetchReminders(date: selectedDate)
-            }
+            }*/
+            eventsManager.loadAllEventsAndReminders(date: Date(), onEvents: { events in
+                EventsClass.shared.allEvents = events
+            })
         }
     }
         

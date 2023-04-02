@@ -4,6 +4,8 @@ import EventKit
 import Shift
 
 class RemindersManager: ObservableObject {
+
+    private var allRemainders: [EKReminder] = []
     
     
     public static let shared = RemindersManager()
@@ -44,8 +46,9 @@ class RemindersManager: ObservableObject {
         
         return events
     }
+
     //Request Access To Reminders
-    func requestRemindersAccess(onGranted: @escaping (Bool) -> Void){
+    func requestRemindersAccess(onGranted: @escaping (Bool) -> Void) {
         
         eventStore.requestAccess(to: .reminder) { (granted, error) in
             if let error = error {
@@ -57,11 +60,41 @@ class RemindersManager: ObservableObject {
         }
         
     }
+
+    func fetchReminders(date: Date, onReminders: @escaping ([EKReminder]) -> [EKReminder]) {
+        var list: [EKReminder] = []
+        let incompletePredicate = self.eventStore.predicateForIncompleteReminders(withDueDateStarting: nil, ending: Date().endOfDay(for: date), calendars: [])
+        let completePredicate = self.eventStore.predicateForCompletedReminders(withCompletionDateStarting: Calendar.current.startOfDay(for: date), ending: Date().endOfDay(for: date), calendars: [])
+
+        self.eventStore.fetchReminders(matching: incompletePredicate) { results in
+                if let results = results {
+                    print(results)
+                    if(list.size > 0){
+                        list.append(contentsOf: results)
+                        onReminders(list)
+                        return
+                    }
+                    list.append(contentsOf: results)
+                }
+        }
+            
+        self.eventStore.fetchReminders(matching: completePredicate) { results in
+                if let results = results {
+                    print(results)
+                     if(list.size > 0){
+                        list.append(contentsOf: results)
+                        onReminders(list)
+                        return
+                    }
+                    list.append(contentsOf: results)
+                }
+        }
+    }
     
     
     
     //Fetch Reminders Into Array
-    func fetchReminders(date: Date) async throws{
+    func fetchReminders(date: Date) async throws {
         
         requestRemindersAccess(onGranted: { (success) in
             //let predicate = self.eventStore.predicateForReminders(in: nil)
